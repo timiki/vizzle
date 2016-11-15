@@ -1,0 +1,9 @@
+rpc:
+    resource: "@VizzleWebBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+web:
+    resource: "@RpcServerBundle/Controller/"
+    type:     annotation
+    prefix:   /
